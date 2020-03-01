@@ -1,6 +1,7 @@
 #import "FacebookAudienceNetworkPlugin.h"
 #import "FacebookInitializePlugin.h"
 #import "FacebookInterstitialAdPlugin.h"
+#import "FacebookBannerAdPlugin.h"
 
 //@interface FacebookAudienceNetworkPlugin ()
 //@property(nonatomic, retain) FlutterMethodChannel *channel;
@@ -11,6 +12,7 @@
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar> *)registrar {
     [FacebookInitializePlugin registerWithRegistrar: registrar];
     [FacebookInterstitialAdPlugin registerWithRegistrar: registrar];
+    [FacebookBannerAdPlugin registerWithRegistrar: registrar];
 }
 
 //+ (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
