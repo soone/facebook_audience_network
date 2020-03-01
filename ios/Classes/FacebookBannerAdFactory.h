@@ -1,12 +1,6 @@
-//
-//  FacebookBannerAdFactory.h
-//  facebook_audience_network
-//
-//  Created by soone on 2020/3/1.
-//
 
-#ifndef FacebookBannerAdFactory_h
-#define FacebookBannerAdFactory_h
+#import <Flutter/Flutter.h>
 
-
-#endif /* FacebookBannerAdFactory_h */
+@interface FacebookBannerAdFactory : NSObject<FlutterPlatformViewFactory>
+-(instancetype)initWithMessenger:(NSObject<FlutterBinaryMessenger>*)messenger;
+@end

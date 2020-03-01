@@ -3,4 +3,3 @@
 
 @interface FacebookInterstitialAdPlugin : NSObject<FlutterPlugin, FBInterstitialAdDelegate>
 @end
-
